@@ -1,0 +1,19 @@
+Reading questions due before class
+
+How do you add a newline to a String?
+    \n
+
+What is the difference between single and double quotes?
+
+    double quotes work with interpolation. singles only have single(apostrophe) and backslash capability.
+
+How would you replace all instances of the word ‘pie’ with the word ‘pizza’ in a String?
+     .gsub
+
+What is the difference between gsub and gsub!?
+
+    gsub! returns the same string modified but gsub returns a new modified string
+
+Do a little research on apidock.com and find 5 methods on String that you think are interesting and could be useful.
+
+    .scan , .clear , .each_index , .squeeze, .succ

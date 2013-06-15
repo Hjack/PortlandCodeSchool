@@ -1,0 +1,33 @@
+thursday 12th homework
+
+Reading questions due before class
+
+
+What does the dot character match?
+  any single char except newline
+
+How do you match exactly 3 lower case characters
+  aaa for example
+
+How do you match a range of characters?
+  [1-9] [a-z] etc.
+
+How do you match any whitespace?
+  \s
+
+How do you match any number?
+  \d
+
+How do you match either “ferret” or “weasel”?
+  ferret|weasel
+
+What’s the difference between * and +
+  
+
+What does the operator =~ do in Ruby?
+  checks for pattern match, returns index og match beginning or nil if no match
+
+How do you match the beginning/end of a line?
+  \a & \z respectively
+
+Regular expressions marked the beginning of my serious programmer career. Seriously spend some time on this. In fact, write down the time and remember where you were when you learned regexen.

@@ -1,0 +1,18 @@
+.container {
+  background-color: lightgreen;
+}
+
+h1, h2, h3, h4 {
+  color: white;
+}
+#kitty {
+  display: block;
+  float: left;
+
+}
+.squad {
+  height: 100px;
+  width:  100px;
+  background-color: white;
+  margin: 20px;
+}

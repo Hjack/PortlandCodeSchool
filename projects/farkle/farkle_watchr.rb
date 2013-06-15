@@ -1,0 +1,1 @@
+watch( 'farkle/test_.*\.rb' )  {|md| system("ruby #{md[0]}") }

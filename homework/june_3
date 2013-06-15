@@ -1,0 +1,43 @@
+homework:
+
+blue or maybe green...
+
+1229904000 from file lp1.rb
+
+characters and/or spaces enclosed in quotes
+
+single quotes don't work with interpolation
+  they are not interchangeable in that a single can not be used to close a double and vice versa
+
+"how do you use a 'quote mark' inside a string" "how\'d you use a quote mark inside a string"
+
+a name assigned to reference a value
+
+name = gets.chomp  puts "Hello "+name+"!"   puts "Hello #{name}!"
+
+to_s converts item to string, to_i converts item to integer
+
+evens:
+
+variable.method
+
+rand(20)+1
+
+def new_method optional_param
+  method do stuff here maybe with optional_param
+end
+
+def new_method (opt_param1,opt_param2)
+  method actions 
+end
+
+you get a wrong number of arguments error(ArgumentError)
+
+it is a different variable local to the method
+
+the value outside the method is the same as it was last assigned outside of the method
+
+the last expression that was evaluated
+
+
+
