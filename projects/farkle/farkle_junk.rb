@@ -14,7 +14,16 @@ end
 # three 5’s rolled is 500 points
 
 # One exception to this rule is that three 1’s rolled is 1000 points rather than 100 points
+array = "66611/(1){3}/ =~ array;points"
+points = 0
 
+# case array
+#   when /(1){3}/ =~ array;points =1000
+#   when true; points = 5454
+#   else points
+#   end
+
+  puts /(1){3}/ =~ array
 
 
 # class FarkleScorerTest < Minitest::Unit::TestCase

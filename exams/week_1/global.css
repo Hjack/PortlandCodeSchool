@@ -1,18 +1,26 @@
+
 .container {
   background-color: lightgreen;
 }
-
 h1, h2, h3, h4 {
   color: white;
 }
 #kitty {
   display: block;
   float: left;
-
+  margin: 20px;
 }
 .squad {
   height: 100px;
   width:  100px;
   background-color: white;
   margin: 20px;
+  float: left;
 }
+#headlines {
+  width:  700px;
+  float:left;
+  clear: right;
+  margin-left: 20px;
+}
+
