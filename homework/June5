@@ -1,0 +1,29 @@
+What is recursion?
+  "Recursion in computer science is a method where the solution to a problem depends on solutions to smaller instances of the same problem" 
+  --from my understanding its a combination of a function calling itself and breaking a problem down to its smallest repeatable factor so that repetitive calling of the same funtction can be used to solve the larger problem.
+When learning recursion, what is the defacto “hello world” style program?
+    Factorials
+Use pseudo code to complete a recursive sort
+  
+Hint: There are three steps to any recursive algorithm
+Check to see if there’s any work left to do and return if not. (early return)
+Do some work (reduce the problem)
+Call yourself (recurse) (sometimes 2 & 3 are the same step)
+Evens:
+
+How do you redirect the output of a program to a file?
+ ruby filename.rb > file_saved_to.txt
+How do you open and read the contents of a file?
+  File.read filename
+How do you open and write text to a file?
+  File.open filename, 'w' do |f| f.write object_you_want_to_write end
+How do you put a variable inside a string? (Interpolation)
+  "string just going along and BAM a #{variable} is interpolated"
+What does YAML stand for?
+  I read that it's now known as "Yaml aint markup language"(gotta recurse ya know)
+How do you convert an object to YAML and then convert it back to an object? (Marshal/Serialize)
+  .to_yaml and YAML::load
+How do you do a recursive search for files when using Dir (Globbing)
+  Fir['**/*.fileinfo']
+
+  
