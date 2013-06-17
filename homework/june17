@@ -1,0 +1,37 @@
+Reading questions due before class
+
+In your own words, summarize the 7 things on page 9-11 that jQuery does well
+  gain specific access to elements in an html document
+  change the way a page looks by accessing css properties
+  change page content
+  create responses to user interaction like clicks on links
+  create animations based on interaction and page events etc.
+  interact with servers without a page refresh
+  make some javascript tasks easier
+
+How do you include external javascript files in HTML
+  <script src="http://code.jquery.com/jquery.js"></script> (for example)
+
+Should jquery.js get included before or after our project files?
+  the jquery.js file needs to come before our scripts but it should probably be loaded after the rest of the html document before the closing </body> tag
+
+What does this code do and why do we use it? $(document).ready()
+ document ready sets up our code to be ready to fire when the dom is rendered rather than having it run before the elements we need are even available. It also smooths out some browser inconsistencies and handles scheduling.
+What code would you use to select these things:
+
+an element: $('element')
+an id $('#id')
+a class $('.class')
+a p tag, inside a div with class “turkey”, inside a body with the id “thanksgiving”. $('#thanksgiving > .turkey > p')
+
+How would you add “tiger stripes” to a table with jQuery? (tiger stripes are alternating background colors)
+  $(document).ready(function(){
+    $('tr:even').addClass('predefined_background_class');
+  });
+
+How do we select only checkboxes that are currently checked?
+  :checked  for example $('input[type="radio"]:checked')
+What is the keyboard command to open the Chrome element inspector?
+  Option Command I
+To open the Chrome console?
+  Option Command J
